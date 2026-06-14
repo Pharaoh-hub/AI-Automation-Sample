@@ -14,6 +14,5 @@ def process_automation_event(api_url, payload):
         # Secure error handling for DevSecOps pipelines
         return {"status": "error", "message": str(e)}
 
-# Example usage structure for internal automation
 if __name__ == "__main__":
     print("Orchestrator initialized. Ready for API integration.")
